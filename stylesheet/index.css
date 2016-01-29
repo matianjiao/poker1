@@ -1,0 +1,144 @@
+body{
+	font-family: "a";
+	margin: 0px;
+	padding: 0px;
+	background-image: url('../3.jpg');
+	border: 1px solid #FEEFF4;
+}
+@font-face{
+	font-family: "a";
+	src:url("../font/arial.ttf");
+}
+
+#big{
+	width: 970px;
+	height: 621px;
+	position: relative;
+	margin:20px auto 0; 
+}
+.pai,.paixia{
+	width: 130px;
+	height: 200px;
+	position: absolute;
+	border-radius: 5px;
+	background-size:cover;
+	font-size: 0px;
+	-webkit-transition:all ease 1s;
+	background-image: url("../beimian.jpg");
+}
+.pai{
+	-webkit-transform:rotateY(-180deg);
+}
+.paixia{
+	box-shadow: 0 3px 10px #999;
+}
+
+
+#small{
+	width: 130px;
+	height: 200px;
+	position:absolute;
+	top: 410px;
+	left: 200px;
+}
+#smallyou{
+	width: 130px;
+	height: 200px;
+	position: absolute;
+	top: 410px;
+	right: 200px;
+	border-radius: 5px;
+	box-shadow: 0 3px 10px #999;
+	background: url("../beimian.jpg");
+}
+#anniu1{
+	width:80px;
+	height: 55px;
+	position: absolute;
+	top: 470px;
+	left: 47%;
+	border-radius: 5px;
+	box-shadow: 0 3px 10px #999;
+	background:50% 50% no-repeat url("../right.png");
+}
+#anniu2{
+	border-radius: 5px;
+	width:80px;
+	height: 55px;
+	position: absolute;
+	top: 560px;
+	left:47%;
+	box-shadow: 0 3px 10px #999;
+	background:50% 50% no-repeat url("../left.png");
+}
+.zhezhao{
+	width:1300px;
+	height:850px;
+	box-shadow: 0 0 20px black;
+	position: absolute;
+	top:20px;
+	left:20px;
+	z-index: 1;
+	border-radius: 10px;
+	background: rgba(254,239,244,0.8);
+	/*background-size: cover;*/
+	
+}
+#zhao1{
+	display: none;
+}
+#zhao2{
+	display: none;
+}
+.image{
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	position: absolute;
+	top: 150px;
+	right:150px; 
+	background:center center no-repeat url("../win.gif");
+}
+.img1{
+	width: 195px;
+	height: 195px;
+	background:center center no-repeat url("../lose.gif");	
+}
+.win,.lose{
+	color: #A40062;
+	font-size: 7em;
+	text-align: center;
+	line-height: 600px;
+}
+
+.anniu{
+	padding: 20px 30px;
+	border-radius: 10px;
+	box-shadow: 0 0 20px black;
+	font-size: 2em;
+	position: absolute;
+	top: 450px;
+	left: 550px;
+	cursor: pointer;
+	text-align: center;
+}
+
+
+
+
+
+
+
+
+
+/*.zuoshang{
+	position: absolute;
+	top:6px;
+	left:9px;
+}
+.youxia{
+	position: absolute;
+	bottom: 8px;
+	right: 8px;
+	-webkit-transform:rotateZ(180deg);
+}*/
